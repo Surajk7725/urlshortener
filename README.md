@@ -32,9 +32,9 @@ The script currently uses the TinyURL shortening service. You can explore other 
 - **Line:** url_short = pyshorteners.Shortener().tinyurl.short(urladdress)
 
 ## Dependencies
-1)pyperclip: Used to interact with the clipboard for copying the shortened URL.
+- **pyperclip:** Used to interact with the clipboard for copying the shortened URL.
 
-2)pyshorteners: A library that provides a convenient interface to various URL shortening services.
+- **pyshorteners:** A library that provides a convenient interface to various URL shortening services.
 
 
 
