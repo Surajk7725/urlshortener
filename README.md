@@ -8,7 +8,7 @@ This Python script provides a simple GUI-based URL shortening tool using the tki
 
 Make sure you have the required libraries installed. You can install them using the following:
 
-pip install pyperclip pyshorteners
+- **pip install pyperclip pyshorteners**
 
 ### Running the Application
 
@@ -21,17 +21,19 @@ The shortened URL will be displayed in the second text entry.
 Click on the "Copy Short URL" button to copy the shortened URL to your clipboard.
 
 ## GUI Elements
-URL Entry: Text entry for the user to input the long URL that needs to be shortened.
-Generate Short URL Button: Initiates the URL shortening process.
-Short URL Entry: Displays the shortened URL after it has been generated.
-Copy Short URL Button: Copies the shortened URL to the clipboard.
+- **URL Entry:** Text entry for the user to input the long URL that needs to be shortened.
+- **Generate Short URL Button:** Initiates the URL shortening process.
+- **Short URL Entry:** Displays the shortened URL after it has been generated.
+- **Copy Short URL Button:** Copies the shortened URL to the clipboard.
 
 ## Customization
 The script currently uses the TinyURL shortening service. You can explore other services provided by pyshorteners and modify the script accordingly.
-Line:-url_short = pyshorteners.Shortener().tinyurl.short(urladdress)
+
+- **Line:** url_short = pyshorteners.Shortener().tinyurl.short(urladdress)
 
 ## Dependencies
 1)pyperclip: Used to interact with the clipboard for copying the shortened URL.
+
 2)pyshorteners: A library that provides a convenient interface to various URL shortening services.
 
 
